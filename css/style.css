@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(223, 178, 246);
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Zilla Slab", serif;
+
+}
+
+.main { 
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 2rem auto
+
+}
+
+.main > div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    margin: 0 auto;
+}
+
+#red{
+    border: 1px solid red;
+}
+
+#green{
+    border: 1px solid green;
+}
+
+#blue{
+    border: 1px solid blue;
+}
+
+.footer{
+    text-align: center;
+}
